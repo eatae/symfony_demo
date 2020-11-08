@@ -1,0 +1,22 @@
+nginx
+    - конф. для nginx
+    - Dockerfile
+
+php-cli
+    - Dockerfile
+
+
+----------------------
+
+
+Show:
+    localhost:8083
+
+Enter php-cli:
+    docker exec -it symfony_demo-php-cli bash
+
+Docker-Compose up:
+    docker-compose up --build -d
+    docker-compose up -d
+
+
